@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@color/colorPrimary"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:id="@+id/toolbar_main">
+    
+    <ImageView
+        android:id="@+id/menu"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:padding="15dp"
+        android:src="@drawable/menu"/>
+
+    <ImageView
+        android:id="@+id/cloud"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:padding="12dp"
+        android:src="@drawable/cloud"/>
+
+    <ImageView
+        android:id="@+id/note"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_toLeftOf="@+id/cloud"
+        android:padding="12dp"
+        android:src="@drawable/note"/>
+
+    <ImageView
+        android:id="@+id/player"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_toRightOf="@+id/cloud"
+        android:padding="8dp"
+        android:src="@drawable/player"/>
+
+    <ImageView
+        android:id="@+id/search"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:padding="12dp"
+        android:src="@drawable/search"/>
+
+</RelativeLayout>
